@@ -4,7 +4,7 @@ from itertools import islice
 
 def part1():
     s = 0
-    with open("input.txt", "r") as input_file:
+    with open("input.txt") as input_file:
         for line in input_file:
             line = line.strip()
             fst_range_with_dash, scd_range_with_dash = line.split(",")
@@ -25,7 +25,7 @@ def part1():
 def part2():
 
     s = 0
-    with open("input.txt", "r") as input_file:
+    with open("input.txt") as input_file:
         for line in input_file:
             line = line.strip()
             fst_range_with_dash, scd_range_with_dash = line.split(",")
